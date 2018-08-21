@@ -1,0 +1,9 @@
+ul {
+  position: absolute;
+  left: 70%;
+}
+
+nav {
+  border-bottom: 2px solid black;
+  color: black;
+}

@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Form from './components/Form';
 
-import './App.css';
-
-class App extends Component {
-
-}
+const App = () => (
+  <div>
+    <Nav />
+    <Form />
+    <Footer />
+  </div>
+);
 
 export default App;
