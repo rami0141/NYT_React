@@ -11,6 +11,7 @@ const Form = () => (
         id="topic"
         type="text"
         className=""
+        placeholder="Politics"
         required
       />
     </div>
@@ -22,6 +23,7 @@ const Form = () => (
       <input
         id="start-year"
         type="text"
+        placeholder="2017"
         required
       />
     </div>
@@ -33,6 +35,7 @@ const Form = () => (
       <input
         id="end-year"
         type="text"
+        placeholder="2018"
         required
       />
     </div>
