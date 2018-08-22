@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import Form from "../../components/Form";
 import Jumbotron from "../../components/Jumbotron";
+import Article from "../../components/Article";
+import Footer from "../../components/Footer";
 import Card from "../../components/Card";
 import { Col, Row, Container } from "../../components/Grid";
+import { List } from "../../components/List";
 
 class Home extends Component {
   state = {
@@ -24,8 +27,8 @@ class Home extends Component {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-              <h3><strong>New York Times Article Scrubber</strong></h3>
-              <h5>Search for and save articles of interest</h5>
+              <h1><strong>(ReactJS) New York Times Article Scrubber</strong></h1>
+              <h2>Search for and save articles of interest</h2>
             </Jumbotron>
           </Col>
           <Col size="md-12">
@@ -40,6 +43,14 @@ class Home extends Component {
             </Card>
           </Col>
         </Row>
+        <Row>
+          <Col size="md-12">
+            <Card title="Results">
+
+            </Card>
+          </Col>
+        </Row>
+        <Footer />
       </Container>
     );
   }
